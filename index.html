@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>UAS MANPRO</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 30px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>SIEGA</h2>
+</header>
+
+<section>
+  <nav>
+    <img src="file:///D|/Tugas/Semester 7/Manajemen Projek/UAS/siega.png" width="60%">
+  </nav>
+  
+  <article>
+    <h1>Tentang Kami</h1>
+    <p align="justify">Dalam bahasa Spanyol, Siega artinya harvesting atau panen. Dalam komunitas SIEGA atau Sistem Informasi, E Commerce, Game Technology, dan Akuntansi + Sistem Informasi di Unika Soegijapranata, kami mempercayai bahwa penguasaan teknologi informasi adalah keniscayaan. Jika penerapannya sesuai, maka kita akan memanen kehidupan manusia yang lebih baik.</p>
+	<h1>Akreditasi</h1>
+    <p>Program Studi Sistem Informasi, Game Technology, E-Commerce (Bisnis Digital) telah ter akreditasi “Baik Sekali” (di atas B) oleh BAN-PT.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Vincensius F. H. Purba 19.G4.0002 | Ade Christian 19.G4.0012</p>
+</footer>
+
+</body>
+</html>
+
